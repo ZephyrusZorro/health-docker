@@ -1,6 +1,6 @@
 # Health Docker
 
-A modern, production-grade Hospital Management System containerized with Docker.
+A Dockerized hospital management system with a local demonstration environment.
 
 End-to-end workflow from the front desk through the ward: patient registration, appointment scheduling, outpatient encounters, EMR, inpatient admissions with live bed tracking, pharmacy with FEFO inventory, laboratory with sample workflow, unified billing, a patient-facing marketing site with online booking, and an AI assist chatbot.
 
@@ -37,7 +37,7 @@ Wait ~5 min for the first build, then open:
 - **API** — http://localhost:8000/api/v1
 - **Mailpit** — http://localhost:8025 (captured outbound email)
 
-All 13 demo accounts use password `password`. Start with `admin@nishat.local` to see the full feature set.
+For the local demo, all 13 seeded accounts use password `password`. Start with `admin@nishat.local` to explore the sample workflows. Keep the demo accounts on a local instance with sample data.
 
 Full setup instructions: **[docs/install.md](docs/install.md)**
 
